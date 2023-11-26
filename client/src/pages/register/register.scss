@@ -1,0 +1,61 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://www.datarails.com/wp-content/uploads/2019/12/financial-controls.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container {
+        -webkit-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+        -moz-box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+        box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.09);
+        display: flex;
+        background-color: white;
+        gap: 20px;
+        flex-direction: column;
+        padding: 50px;
+        border-radius: 5px;
+        align-items: center;
+        width: 300px;
+        color: black;
+
+        h1 {
+            .title {
+                color: #F8981D;
+                font-size: 30px;
+            }
+        }
+
+
+        input {
+            border-radius: 3px;
+            padding: 10px;
+            outline: none;
+            border: 1px solid lightgrey;
+            height: 30px;
+            width: 100%;
+
+        }
+
+        button {
+            border: none;
+            outline: none;
+            padding: 12px;
+            width: 100px;
+            background-color: rgb(37, 180, 37);
+            border-radius: 3px;
+            color: white;
+        }
+
+        span {
+            font-size: 10px;
+
+            .inner {
+                color: blue;
+                cursor: pointer;
+            }
+        }
+    }
+}

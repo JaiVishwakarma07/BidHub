@@ -1,0 +1,46 @@
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 13%);
+    color: white;
+    height: 100%;
+
+    h1 {
+        padding: 10px;
+    }
+
+    .add {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        padding-right: 110px;
+
+        button {
+            padding: 7px;
+            height: 30px;
+            width: fit-content;
+            border: 1px solid #F8981D;
+            background-color: transparent;
+            color: #F8981D;
+            cursor: pointer;
+        }
+    }
+
+    .container {
+        // width: 1400px;
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
